@@ -1,25 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+
+// components
+import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Navbar from "./components/Navbar/Navbar";
+import MiscNotes from "./components/MiscNotes";
+import RoadToReactNotes from "./components/RoadToReactNotes";
+import Notes from "./components/Notes";
+import MovingNotes from "./components/MovingNotes";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/notes" element={<Notes />} />
+        <Route path="/notes/misc-notes" element={<MiscNotes />} />
+        <Route path="/notes/moving-notes" element={<MovingNotes />} />
+        <Route
+          path="/notes/road-to-react-notes"
+          element={<RoadToReactNotes />}
+        />
+      </Routes>
+    </Router>
   );
 }
 
