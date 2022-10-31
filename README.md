@@ -3,7 +3,7 @@
 ## Setup
 
 **Starting in parent directory:**
-`npx create-react-app . --template typescript`
+`bash npx create-react-app . --template typescript`
 
 `cd portfolio`
 
