@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 
 const initialValue = 0;
 
@@ -21,11 +20,6 @@ function Card() {
       </button>
 
       <span className="p-3 border border-light">{count}</span>
-      {/* <button className="badge bg-primary bg-sm border border-dark rounded-4 m-3">
-          Card 2
-        </button> */}
-
-      {/* useReducer hook */}
     </div>
   );
 }
