@@ -1,48 +1,18 @@
 import React from "react";
-import Slider from "@mui/material/Slider";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-
-const bull = (
-  <Box
-    component="span"
-    sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
-  >
-    •
-  </Box>
-);
 
 const About = () => {
   return (
     <div className="container">
-      <h1 className="text-center">{/* style={(paddingTop: "30%")}> */}</h1>
-      <Button href="#text-buttons">Link</Button>
-      <Slider defaultValue={50} aria-label="Default" valueLabelDisplay="auto" />
-      <Card sx={{ minWidth: 275 }}>
-        <CardContent>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-            Word of the Day
-          </Typography>
-          <Typography variant="h5" component="div">
-            be{bull}nev{bull}o{bull}lent
-          </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button size="small">Learn More</Button>
-        </CardActions>
-      </Card>
+      <h2 className="text-center">About</h2>
+      <p>
+        I am a finance, programming, and food junkie. I have lived in Japan for
+        the past eight years and have developed programming projects over that
+        time. For example, I developed a large program that collects
+        fundamentals data from multiple sources and attempts to clean and
+        convert the various formats into similar, comparative data that can be
+        used in a financial analysis pipeline. If you would like to talk, then
+        shoot me an <a href="aaronhard6@gmail.com">email</a>.
+      </p>
     </div>
   );
 };

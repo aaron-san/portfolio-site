@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
 
 // components
 import Home from "./pages/Home/Home";
@@ -11,7 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import MiscNotes from "./components/MiscNotes";
 import RoadToReactNotes from "./components/RoadToReactNotes";
 import Notes from "./components/Notes";
-import MovingNotes from "./components/MovingNotes";
+import MovingNotes from "./components/MovingNotes/MovingNotes";
 
 function App() {
   return (

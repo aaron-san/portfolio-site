@@ -56,7 +56,6 @@ import BookApp from "../../components/BookApp";
 const Services = () => {
   return (
     <div className="container">
-      <h1 className="text-center">{/* style={(paddingTop: "30%")}> */}</h1>
       <MiscNotes />
       <BookApp />
     </div>

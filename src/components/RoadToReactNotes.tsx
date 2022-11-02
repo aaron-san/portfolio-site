@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 function RoadToReactNotes() {
   return (
@@ -17,44 +16,44 @@ function RoadToReactNotes() {
       <div>https://www.robinwieruch.de/about</div>
       <br />
 
-      <PageNumber>P. 11</PageNumber>
-      <CodeLabel>Command Line</CodeLabel>
-      <StyledCode>npx create-react-app hacker-stories</StyledCode>
-      <CodeLabel>Command Line</CodeLabel>
-      <StyledCode>cd hacker-stories</StyledCode>
+      <p>P. 11</p>
+      <div>Command Line</div>
+      <code>npx create-react-app hacker-stories</code>
+      <div>Command Line</div>
+      <code>cd hacker-stories</code>
 
-      <PageNumber>P. 13</PageNumber>
-      <CodeLabel>Command Line</CodeLabel>
+      <p>P. 13</p>
+      <div>Command Line</div>
       <div>#Runs the application in http://localhost:3000</div>
-      <StyledCode>npm start</StyledCode>
+      <code>npm start</code>
       <div># Runs the tests</div>
-      <StyledCode>npm test</StyledCode>
+      <code>npm test</code>
       <div>#Builds the application for production</div>
-      <StyledCode>npm run build</StyledCode>
+      <code>npm run build</code>
     </div>
   );
 }
 
 export default RoadToReactNotes;
 
-const PageNumber = styled.div`
-  display: block;
-  font-size: 2rem;
-  color: rgba(100, 0, 0, 0.6);
-  border-bottom: 2px solid #333;
-`;
+// const PageNumber = styled.div`
+//   display: block;
+//   font-size: 2rem;
+//   color: rgba(100, 0, 0, 0.6);
+//   border-bottom: 2px solid #333;
+// `;
 
-const StyledCode = styled.code`
-  display: block;
-  padding: 5px 8px;
-  background: #313131;
-  color: white;
-  border-radius: 5px;
-  margin-bottom: 10px;
-`;
+// const StyledCode = styled.code`
+//   display: block;
+//   padding: 5px 8px;
+//   background: #313131;
+//   color: white;
+//   border-radius: 5px;
+//   margin-bottom: 10px;
+// `;
 
-const CodeLabel = styled.div`
-  display: block;
-  font-size: 1.2rem;
-  color: rgba(0, 0, 200, 0.8);
-`;
+// const CodeLabel = styled.div`
+//   display: block;
+//   font-size: 1.2rem;
+//   color: rgba(0, 0, 200, 0.8);
+// `;

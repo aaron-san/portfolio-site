@@ -1,0 +1,59 @@
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 6px;
+    text-align: center;
+    background: rgb(73, 70, 70)
+  }
+
+
+
+
+  .image-set {
+    /* box-shadow: 2px 4px 12px rgba(246, 237, 237, 0.2); */
+    /* border: 2px solid rgb(77, 74, 74); */
+    border-radius: 11px;
+  }
+
+.city-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+}
+
+  .city-card {
+    padding: 12px;
+    background: rgb(103, 100, 100);
+    margin-bottom: 5px;
+    border-radius: 8px;
+    border: 1px solid ivory;
+    width: 31%;
+  }
+
+  @media (max-width: 858px) {
+    .city-card {
+      width: 100%;
+    }
+
+    .city-card ul {
+      /* text-align: left; */
+      padding-left: 14px;
+    }
+
+  }

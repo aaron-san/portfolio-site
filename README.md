@@ -3,12 +3,16 @@
 ## Setup
 
 **Starting in parent directory:**
-`bash npx create-react-app . --template typescript`
+
+`npx create-react-app . --template typescript`
 
 `cd portfolio`
 
 `npm i -D tailwindcss postcss autoprefixer`
-`npm i react-router-dom`
+
+`npm i react-router-dom react-icons`
+
+`npm install react-icons --save`
 
 `bash npx tailwindcss init -p`
 
@@ -27,6 +31,16 @@ content: [
 @tailwind components;
 @tailwind utilities;
 ```
+
+`git add .`
+
+`git commit -m "first commit"`
+
+`git push origin main`
+
+`npm run build`
+
+`netlify deploy`
 
 ## Learn More
 
