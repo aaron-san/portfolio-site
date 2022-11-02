@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import "../../fonts/PoorStory/PoorStory-Regular.ttf";
 import "../../fonts/Permanent_Marker/PermanentMarker-Regular.ttf";
-import { FaHouzz, FaStickyNote, FaUserTie } from "react-icons/fa";
+import { FaStickyNote, FaUserTie } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";
 import { IoIosApps } from "react-icons/io";
 

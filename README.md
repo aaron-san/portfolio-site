@@ -32,15 +32,15 @@ content: [
 @tailwind utilities;
 ```
 
+`npm run build`
+
 `git add .`
 
 `git commit -m "first commit"`
 
 `git push origin main`
 
-`npm run build`
-
-`netlify deploy`
+<!-- `netlify deploy` --> Manually connected Netflify to github repository for automatic deployment
 
 ## Learn More
 
