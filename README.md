@@ -46,3 +46,9 @@ content: [
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 Let's learn!
+
+### Screen Size Breakpoints:
+
+- Small: 640px
+
+- Medium: 1007px

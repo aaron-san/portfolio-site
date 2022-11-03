@@ -22,25 +22,25 @@ const Navbar = () => {
         <ul>
           <li>
             <NavLink to="/notes">
-              <FaStickyNote />
+              <FaStickyNote style={{ color: "#B5B9FF" }} />
               <p>Notes</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/about">
-              <FaUserTie />
+              <FaUserTie style={{ color: "#AFF8DB" }} />
               <p>About</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/services">
-              <IoIosApps />
+              <IoIosApps style={{ color: "peachpuff" }} />
               <p>Services</p>
             </NavLink>
           </li>
           <li>
             <NavLink to="/contact">
-              <MdContactMail />
+              <MdContactMail style={{ color: "palegreen" }} />
               <p>Contact</p>
             </NavLink>
           </li>
