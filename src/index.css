@@ -109,6 +109,15 @@ p, li {
   font-size: large;
 }
 
+h2, h3, h4 {
+  font-size: x-large;
+  margin: 4px 0 6px 0;
+}
+
+h1 {
+  font-size: x-large;
+  margin: 8px 0 12px 0;
+}
 
 a.active,
 a:hover {

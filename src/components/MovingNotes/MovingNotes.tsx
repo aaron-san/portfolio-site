@@ -22,8 +22,11 @@ function MovingNotes() {
 
   return (
     <div className="container">
+      <div className="banner">
+        <img src="../images/dallas-skyline.png" alt="Dallas skyline" />
+      </div>
       <h2>Moving Notes</h2>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-evenly">
         <div className="city-card">
           <ImageCard src="texas-map.png" alt="Map of Texas" />
           <h3>Texas</h3>
@@ -43,8 +46,6 @@ function MovingNotes() {
             </li>
           </ul>
         </div>
-      </div>
-      <div className="city-container">
         <div className="city-card">
           <h3>Dallas, TX</h3>
           <ul>

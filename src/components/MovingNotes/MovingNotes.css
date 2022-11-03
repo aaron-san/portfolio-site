@@ -21,43 +21,63 @@ div.gallery {
     background: rgb(73, 70, 70)
   }
 
+.banner img {
+  width: 500px;
+  height: auto;
+  /* background-image: url("../images/dallas-skyline.png"); */
+  /* background-color: white; */
+  mix-blend-mode: color-lighten;
+}
 
 
 
-  .image-set {
+.image-set {
     /* box-shadow: 2px 4px 12px rgba(246, 237, 237, 0.2); */
     /* border: 2px solid rgb(77, 74, 74); */
     border-radius: 11px;
     width: 100%;
-  }
+}
+
+.image-set img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
 
 .city-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1%;
+    gap: 3%;
 }
 
-  .city-card {
+.city-card {
     padding: 12px;
     background: rgb(103, 100, 100);
-    margin-bottom: 5px;
+    margin: 10px 20px;
     border-radius: 8px;
     border: 1px solid ivory;
     width: 31%;
   }
 
-  @media (max-width: 640px) {
-  }
+.city-card ul {
+    padding-left: 14px;
+}
 
-  @media (min-width: 640px and max-width: 1007px) {
+@media screen and (max-width: 640px) {
+  .city-card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width:768px) {
     .city-card {
-      width: 100%;
+      width: 50%;
     }
+}
 
-    .city-card ul {
-      /* text-align: left; */
-      padding-left: 14px;
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .city-card {
+      width: 40%;
     }
-
-  }
+}
