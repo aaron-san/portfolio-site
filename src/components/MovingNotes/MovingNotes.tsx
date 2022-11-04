@@ -13,9 +13,9 @@ function MovingNotes() {
         <img
           src={`../images/${props.src}`}
           alt={props.alt}
-          className="h-32 rounded-t-lg"
+          className="h-32 md:rounded-lg"
         />
-        {/* <div className="desc rounded-b-lg">{props.alt}</div> */}
+        {/* <div className="desc rounded-lg">{props.alt}</div> */}
       </div>
     );
   };
@@ -23,12 +23,12 @@ function MovingNotes() {
   return (
     <div className="container">
       <div className="banner">
-        <img src="../images/dallas-skyline.png" alt="Dallas skyline" />
+        <img src="../images/texas-national-park.jpg" alt="Dallas skyline" />
       </div>
       <h2>Moving Notes</h2>
       <div className="flex flex-wrap justify-evenly">
         <div className="city-card">
-          <ImageCard src="texas-map.png" alt="Map of Texas" />
+          <ImageCard src="texas-map.jpg" alt="Map of Texas" />
           <h3>Texas</h3>
           <ul className="features">
             <li id="pro">Warm Weather</li>
@@ -115,8 +115,13 @@ function MovingNotes() {
             </ul>
             <li>No major sports teams (can be a pro!)</li>
           </ul>
+          <ImageCard src="roundrock-es.jpg" alt="Round Rock, TX" />
         </div>
         <div className="city-card">
+          <ImageCard
+            src="frisco-childdaycare.jpg"
+            alt="Frisco, TX child daycare"
+          />
           <h3>Frisco, TX</h3>
           <ul>
             <li>Pros</li>
@@ -134,8 +139,10 @@ function MovingNotes() {
               <li id="con">Expensive homes</li>
             </ul>
           </ul>
+          <ImageCard src="frisco-texas.jpg" alt="Frisco, TX" />
         </div>
         <div className="city-card">
+          <ImageCard src="irvine-texas.png" alt="Irvine, TX" />
           <h3>Irvine, TX</h3>
           <ul>
             <li id="pro">

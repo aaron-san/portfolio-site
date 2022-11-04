@@ -99,6 +99,12 @@ code {
   min-height: 1000px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 96%;
+  }
+}
+
 
 a {
   color: rgb(107, 233, 255);;

@@ -29,11 +29,53 @@ div.gallery {
 .banner img {
   width: 100%;
   height: auto;
-  position: absolute;
-  /* background-image: url("../images/dallas-skyline.png"); */
-  /* background-color: white; /
-  
+  position: absolute; 
 }
+
+.city-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+.city-card {
+  padding: 12px;
+  background: rgb(103, 100, 100);
+  z-index: 10;
+  margin: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid ivory;
+  width: 45%;
+}
+
+
+.city-card ul {
+  padding-left: 10px;
+}
+
+.city-card ul li {
+padding-left: 10px;
+}
+
+
+@media screen and (max-width: 640px) {
+  .banner img {
+    display: none;
+  }
+
+  .container {
+    padding: 15px 0;
+  }
+
+  .city-card {
+    margin: 10px 0;
+    border-radius: 0px;
+    border: 1px solid ivory;
+    border: none;
+  }
+}
+
 
 
 
@@ -50,31 +92,7 @@ div.gallery {
   margin: 0 auto;
 }
 
-.city-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 2%;
-}
 
-.city-card {
-    padding: 12px;
-    background: rgb(103, 100, 100);
-    z-index: 10;
-    margin: 10px 5px;
-    border-radius: 4px;
-    border: 1px solid ivory;
-    width: 45%;
-  }
-
-
-.city-card ul {
-    padding-left: 10px;
-}
-
-.city-card ul li {
-  padding-left: 10px;
-}
 
 
 
