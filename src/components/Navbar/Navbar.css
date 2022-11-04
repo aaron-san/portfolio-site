@@ -12,6 +12,8 @@ nav {
     width: 100%;
     color: #fff;
     text-decoration: none;
+    border-bottom: 2px solid green;
+    box-shadow: 0 5px 15px 0 lightgreen;
 }
 
 nav ul {
@@ -22,12 +24,6 @@ nav ul {
     width: 100%;
     margin-right: 0;
     align-items: right;
-}
-
-nav a {
-    text-decoration: none;
-    
-    /* border: none; */
 }
 
 nav ul li p {
@@ -56,7 +52,9 @@ nav ul li svg {
 
 
 .logo-text {
-    width: 100%;
+    width: 30%;
+    margin-top: 10px;
+    font-size: 30px;
     margin-left: 30px;
     background-color: red;
     background-image: linear-gradient(45deg, orange, yellow);
@@ -79,13 +77,6 @@ nav ul li svg {
   }
 
 
-
-
-
-/* Navigation Border */
-.nav-border {
-    border-bottom: 2px solid rgb(194, 188, 188, 0.6);
-}
 
 
 .checkbtn {
@@ -144,7 +135,7 @@ nav ul li svg {
 }
 
 
-@media screen and (min-width: 376px) and (max-width: 640px) {
+@media only screen and (min-width: 376px) and (max-width: 640px) {
     
     nav a {
         width: 100%;
@@ -220,23 +211,20 @@ nav ul li svg {
     }
 
     .logo-text {
+        margin-left: 20px;
         padding: 10px 3px;
         width: 600px;
     }
 
     .logo-art {
-        top: 70px;
-        left: 55px;
-        width: 220px;
+        top: 65px;
+        left: 35px;
+        width: 190px;
     }
-    
-    nav ul li {
-        display: none;
-    }
+
     
     nav ul li p {
         display: none;
-        color: white;
     }
 
     nav ul li a {

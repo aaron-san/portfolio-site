@@ -5,6 +5,7 @@
 #root {
   background: radial-gradient(#2d2929, rgb(72, 69, 69));
   min-height: 1000px;
+  overflow: hidden;
 }
 
 
@@ -40,10 +41,24 @@
   src: local("Roboto-Regular"), url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
+ul {
+  margin-left: 12px;
+}
 
-ul li {
+.container ul li {
+  list-style-type: none;
   text-align: left;
-  padding-left: 12px;
+  padding: 2px 8px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  background-color:rgba(171, 185, 185, 0.8);
+  border-radius: 10px;
+  /* border: 1px solid lightgreen; */
+  width: fit-content;
+}
+
+#list-a {
+  background: none;
 }
 
 
@@ -68,12 +83,25 @@ code {
 @layer components {
   .container {
     /* @apply rounded-b-lg shadow-md; */
-    @apply bg-gradient-to-br from-stone-800 to-stone-600 py-6 px-4 text-white border-x  border-gray-300 min-h-[1000px];
+    @apply bg-gradient-to-br from-stone-800 to-stone-600;
   }
 }
 
+.container {
+  /* display: relative; */
+  width: 80%;
+  color: white;
+  z-index: 5;
+  margin: 20px auto;
+  box-shadow: 0px 10px 40px 1px lightgreen;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 1000px;
+}
+
+
 a {
-  color: rgb(72, 197, 208) !important;
+  color: rgb(107, 233, 255);;
   text-decoration: none !important;
 }
 
@@ -111,12 +139,12 @@ p, li {
 
 h2, h3, h4 {
   font-size: x-large;
-  margin: 4px 0 6px 0;
+  margin: 4px 0 6px 8px;
 }
 
 h1 {
   font-size: x-large;
-  margin: 8px 0 12px 0;
+  margin: 8px 0 12px 8px;
 }
 
 a.active,

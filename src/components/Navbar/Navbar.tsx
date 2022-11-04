@@ -11,10 +11,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex justify-between bg-gradient-to-br from-stone-800 to-stone-600 h-20 px-2 md:px-4">
-        <NavLink
-          className="logo-text my-2 sm:text-[30px] md:text-[35px]"
-          to="/"
-        >
+        <NavLink className="logo-text" to="/">
           Aaron Hardy
         </NavLink>
 
@@ -46,7 +43,6 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <div className="nav-border"></div>
     </>
   );
 };
