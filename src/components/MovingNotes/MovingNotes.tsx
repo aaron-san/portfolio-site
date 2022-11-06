@@ -51,7 +51,6 @@ function MovingNotes() {
         <div className="city-card">
           <ImageCard src="plano-texas.jpg" alt="Plano, TX" />
           <h3>Plano, TX</h3>
-          <h4>Pros & Features</h4>
           <ul>
             <li id="pro">Thriving suburban area</li>
             <li id="pro">25 miles north of Dallas</li>
@@ -63,7 +62,7 @@ function MovingNotes() {
             <li id="pro">Shopping (Legacy West)</li>
             <li id="pro">Many restaurants</li>
             <li id="pro">Strong Economy</li>
-            <li>
+            <li id="pro">
               Nightlife - bars, restaurants, nice date night options, no
               club/loud atmospheres, more calm atmospheres, some live music bars
             </li>
@@ -71,12 +70,12 @@ function MovingNotes() {
             <li id="pro">
               Highly-rated schools (some of the best schools in TX)
             </li>
-            <li>Parks, outdoor activities, kids activities</li>
+            <li id="pro">Parks, outdoor activities, kids activities</li>
             <li id="con">
               Weather - unpredictable (volatile), sunny snowy, etc.
             </li>
-            <li id="pro">Older homes & neighborhoods</li>
-            <li id="pro">
+            <li>Older homes & neighborhoods</li>
+            <li id="con">
               Traffic - slow, congested, tollways, parking difficulty (Plano has
               grown fast)
             </li>
@@ -88,18 +87,14 @@ function MovingNotes() {
           <ul>
             <li>A suburb of Dallas, TX</li>
           </ul>
-          <h4>Pros & Features</h4>
           <ul>
             <li id="pro">
               Economy - lots of undeveloped land and room to grow
             </li>
             <li>Lots of tech companies moving into Round Rock</li>
-            <li>Many things to do!</li>
-            <ul>
-              <li id="pro">Lots of parks</li>
-              <li>Huge indoor water park</li>
-              <li id="pro">Huge park for "Play for all abilities"</li>
-            </ul>
+            <li id="pro">Lots of parks</li>
+            <li id="pro">Huge indoor water park</li>
+            <li id="pro">Huge park called "Play for all abilities"</li>
             <li id="pro">Affordable housing</li>
             <li id="pro">Easily accessible by I-35 (access to Austin)</li>
             <li id="pro">Highly-rate schools</li>
@@ -107,12 +102,11 @@ function MovingNotes() {
 
             <li id="con">Unpredictable weather + Hot TX heat</li>
             <li id="con">Allergies year-round</li>
-            <li id="con">Traffic (rush hour is bad on I-35 to downtown!)</li>
-            <ul>
-              <li>
-                If 25 mins is average, add 20-30 mins when there is an accident
-              </li>
-            </ul>
+            <li id="con">
+              Traffic (rush hour is bad on I-35 to downtown! If 25 mins is
+              average, add 20-30 mins when there is an accident)
+            </li>
+
             <li>No major sports teams (can be a pro!)</li>
           </ul>
           <ImageCard src="roundrock-es.jpg" alt="Round Rock, TX" />

@@ -55,17 +55,41 @@ div.gallery {
 }
 
 .city-card ul li {
-padding-left: 10px;
+  margin-left: 16px;
+  padding-left: 10px;
+  list-style-type: "\25A8";
 }
+
+.city-card ul li::marker {
+  color:rgb(197, 203, 203);
+  font-size: 12px;
+}
+
+
+ul li#pro {
+  /* list-style-type: "\2714"; */
+}
+
+ul li#pro::marker {
+  color: rgb(100, 225, 100);
+}
+
+
+ul li#con {
+  /* list-style-type: "\2718"; */
+}
+ul li#con::marker {
+  color: red;
+}
+
+
+
+
 
 
 @media screen and (max-width: 640px) {
   .banner img {
     display: none;
-  }
-
-  .container {
-    padding: 15px 0;
   }
 
   .city-card {
@@ -93,21 +117,12 @@ padding-left: 10px;
 }
 
 
-
-
-
 .features {
   display: flex;
   flex-wrap: wrap;
 }
 
-#pro {
-  background-color: rgb(1, 169, 175);
-}
 
-#con {
-  background: lightsalmon;
-}
 
 
 @media screen and (max-width: 640px) {

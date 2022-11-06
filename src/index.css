@@ -51,7 +51,7 @@ ul {
   padding: 2px 8px;
   margin-left: 8px;
   margin-bottom: 8px;
-  background-color:rgba(171, 185, 185, 0.8);
+  /* background-color:rgba(171, 185, 185, 0.8); */
   border-radius: 10px;
   /* border: 1px solid lightgreen; */
   width: fit-content;
@@ -93,7 +93,7 @@ code {
   color: white;
   z-index: 5;
   margin: 20px auto;
-  box-shadow: 0px 10px 40px 1px lightgreen;
+  box-shadow: 0px 10px 40px 1px lightblue;
   border-radius: 10px;
   padding: 15px;
   min-height: 1000px;
@@ -127,11 +127,15 @@ li a.active {
 
 
 h3 {
-  font-family: "PoorStory";
+  color:rgb(255, 121, 215);
+  font-family: "Flamenco";
+  text-transform: uppercase;
+  font-weight: 35px;
+  font-size: x-large
 }
 
 h4 {
-  font-family: "Flamenco";
+  font-family: "PoorStory";
 }
 
 h2 {
@@ -141,6 +145,12 @@ h2 {
 p, li {
   font-family: "Roboto-Regular";
   font-size: large;
+}
+
+h3::before {
+  /* content: "\021E8"; */
+  /* font-size: 35px; */
+  /* padding-right: 10px; */
 }
 
 h2, h3, h4 {
