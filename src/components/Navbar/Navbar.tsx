@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "../../fonts/PoorStory/PoorStory-Regular.ttf";
 import "../../fonts/Permanent_Marker/PermanentMarker-Regular.ttf";
 import { FaStickyNote, FaUserTie } from "react-icons/fa";
+// import { FcAbout } from "react-icons/fc";
 import { MdContactMail } from "react-icons/md";
 import { IoIosApps } from "react-icons/io";
 
@@ -25,7 +26,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink to="/about">
-              <FaUserTie style={{ color: "#AFF8DB" }} />
+              <FaUserTie style={{ color: "palegreen" }} />
               <p>About</p>
             </NavLink>
           </li>
@@ -39,6 +40,11 @@ const Navbar = () => {
             <NavLink to="/contact">
               <MdContactMail style={{ color: "palegreen" }} />
               <p>Contact</p>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/login">
+              <p>Log in</p>
             </NavLink>
           </li>
         </ul>

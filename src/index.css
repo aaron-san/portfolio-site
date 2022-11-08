@@ -8,6 +8,14 @@
   overflow: hidden;
 }
 
+* {
+  margin: 0;
+  /* box-sizing: border-box; // not neccesary */
+  font-family: "Roboto-Regular";
+  line-height: 1.8rem;
+  font-size: large;
+ }
+
 
 @font-face {
   font-family: "PoorStory";
@@ -41,8 +49,11 @@
   src: local("Roboto-Regular"), url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
+
+
+
 ul {
-  margin-left: 12px;
+  margin-left: 25px;
 }
 
 .container ul li {

@@ -12,7 +12,7 @@ function NotesPage() {
         <Link to="/notes/road-to-react-notes">Road To React Notes</Link>
       </div>
       <div className="text-xl">
-        <Link to="/notes/moving-notes">Moving</Link>
+        <Link to="/notes/moving-notes">Moving Notes</Link>
       </div>
     </div>
   );

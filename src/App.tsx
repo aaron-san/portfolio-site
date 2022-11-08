@@ -11,6 +11,7 @@ import MiscNotes from "./components/MiscNotes";
 import RoadToReactNotes from "./components/RoadToReactNotes";
 import Notes from "./components/Notes";
 import MovingNotes from "./components/MovingNotes/MovingNotes";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

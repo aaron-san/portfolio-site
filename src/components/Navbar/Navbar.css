@@ -9,20 +9,23 @@
 /* } */
 
 nav {
-    width: 100%;
+    width: 100vw;
     color: #fff;
     text-decoration: none;
     /* border-bottom: 1px solid white; */
     box-shadow: 0 5px 15px 0 lightblue;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
     list-style-type: none;
     /* overflow: hidden; */
     width: 100%;
-    margin-right: 0;
+    margin-right: 20px;
     align-items: right;
 }
 

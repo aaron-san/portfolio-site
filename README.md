@@ -40,6 +40,20 @@ content: [
 
 `git push origin main`
 
+`npm install firebase`
+
+Not used (but for hosting with Firebase, must use):
+`npm install -g firebase-tools`
+
+Sign in to Google
+`firebase login`
+
+Initialize a project
+`firebase init`
+
+Deploy
+`firebase deploy` (if deploying with Firebase)
+
 <!-- `netlify deploy` --> Manually connected Netflify to github repository for automatic deployment
 
 ## Learn More

@@ -86,8 +86,7 @@ function MovingNotes() {
           <h3>Round Rock, TX</h3>
           <ul>
             <li>A suburb of Dallas, TX</li>
-          </ul>
-          <ul>
+
             <li id="pro">
               Economy - lots of undeveloped land and room to grow
             </li>
@@ -118,20 +117,13 @@ function MovingNotes() {
           />
           <h3>Frisco, TX</h3>
           <ul>
-            <li>Pros</li>
-            <ul>
-              <li id="pro">Has nice outdoor parks</li>
-              <li>High income earners</li>
-            </ul>
-            <li>Cons</li>
-            <ul>
-              <li id="con">
-                Looks like a small town with few attractions and shopping
-                centers
-              </li>
-              <li id="con">Has a few attractions</li>
-              <li id="con">Expensive homes</li>
-            </ul>
+            <li id="pro">Has nice outdoor parks</li>
+            <li>High income earners</li>
+            <li id="con">
+              Looks like a small town with few attractions and shopping centers
+            </li>
+            <li id="con">Has a few attractions</li>
+            <li id="con">Expensive homes</li>
           </ul>
           <ImageCard src="frisco-texas.jpg" alt="Frisco, TX" />
         </div>

@@ -58,6 +58,8 @@ div.gallery {
   margin-left: 16px;
   padding-left: 10px;
   list-style-type: "\25A8";
+  /* text-align: justify; */
+  /* text-justify: ; */
 }
 
 .city-card ul li::marker {
