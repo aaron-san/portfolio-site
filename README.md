@@ -7,6 +7,7 @@ portfolio-site-123.netlify.app
 **Netlify**
 
 ```bash
+npm run start
 npm run build
 ```
 
