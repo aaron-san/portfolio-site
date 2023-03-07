@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+## Deployment
+
+portfolio-site-123.netlify.app
+
+**Netlify**
+
+```bash
+npm run build
+```
+
+- This project is hosted on Netflify and connected to the corresponding Github repository for automatic deployment
+
 ## Setup
 
 **Starting in parent directory:**
@@ -22,14 +34,6 @@ content: [
 ],
 ```
 
-**Next we need to add the Tailwind directives to the "src/index.css" file, add the following to the top of the file:**
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
 ```bash
 npm run build
 
@@ -50,8 +54,6 @@ Initialize a project
 
 Deploy
 `firebase deploy` (if deploying with Firebase)
-
-<!-- `netlify deploy` --> Manually connected Netflify to github repository for automatic deployment
 
 ## Learn More
 
