@@ -7,6 +7,11 @@ portfolio-site-123.netlify.app
 **Netlify**
 
 ```bash
+
+pnpm i gh-pages --save-dev
+netlify deploy
+netlify deploy --prod
+
 npm run start
 npm run build
 ```
