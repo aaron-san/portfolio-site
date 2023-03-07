@@ -4,17 +4,15 @@
 
 **Starting in parent directory:**
 
-`npx create-react-app . --template typescript`
-
-`cd portfolio`
-
-`npm i -D tailwindcss postcss autoprefixer`
-
-`npm i react-router-dom react-icons`
-
-`npm install react-icons --save`
-
-`bash npx tailwindcss init -p`
+```bash
+npx create-react-app . --template typescript`
+cd portfolio
+npm i -D tailwindcss postcss autoprefixer
+npm i react-router-dom react-icons
+npm install react-icons --save
+npm install --save chart.js react-chartjs-2
+bash npx tailwindcss init -p
+```
 
 **In tailwind.config.js, add:**
 
@@ -32,17 +30,16 @@ content: [
 @tailwind utilities;
 ```
 
-`npm run build`
+```bash
+npm run build
 
-`git add .`
+git add .
+git commit -m "first commit"
+git push origin main
+npm install firebase
+```
 
-`git commit -m "first commit"`
-
-`git push origin main`
-
-`npm install firebase`
-
-Not used (but for hosting with Firebase, must use):
+Not used (but for "hosting" with Firebase, must use):
 `npm install -g firebase-tools`
 
 Sign in to Google

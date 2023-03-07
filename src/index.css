@@ -91,6 +91,9 @@ code {
   /* ... */
 }
 
+hr {
+  margin: 15px 0;
+}
 @layer components {
   .container {
     /* @apply rounded-b-lg shadow-md; */
@@ -100,7 +103,7 @@ code {
 
 .container {
   /* display: relative; */
-  width: 80%;
+  width: 60%;
   color: white;
   z-index: 5;
   margin: 20px auto;

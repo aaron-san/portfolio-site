@@ -26,6 +26,10 @@ function VSCodeShortcuts() {
           <td>Toggle sidebar</td>
         </tr>
         <tr>
+          <td>Ctrl + .</td>
+          <td>Auto import selected component</td>
+        </tr>
+        <tr>
           <td>Ctrl + `:</td>
           <td>Open editor</td>
         </tr>

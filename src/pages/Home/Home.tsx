@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div className="container">
       <div>
+        <hr />
         <Card />
         <Search />
         <VSCodeShortcuts />

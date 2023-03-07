@@ -14,6 +14,12 @@ function NotesPage() {
       <div className="text-xl">
         <Link to="/notes/moving-notes">Moving Notes</Link>
       </div>
+      <div className="text-xl">
+        <Link to="/notes/investing-notes">Investing Notes</Link>
+      </div>
+      <div className="text-xl">
+        <Link to="/notes/immigration-notes">Immigration Notes</Link>
+      </div>
     </div>
   );
 }
